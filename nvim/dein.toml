@@ -1,0 +1,42 @@
+[[plugins]]
+repo = 'vim-syntastic/syntastic'
+
+[[plugins]]
+repo = 'junegunn/fzf'
+build_on = '''
+./install -all
+'''
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+repo = 'previm/previm'
+
+[[plugins]]
+repo = 'skanehira/docker.vim'
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+on_source = ['neosnippet.vim']
+
+[[plugins]]
+repo = 'sameyasu/neosnippet-php-functions'
+on_source = ['neosnippet.vim']
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+hook-add  = 'let g:javascript_plugin_jsdoc = 1'
+
